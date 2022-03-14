@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.content {  
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 0.5fr 2.2fr 0.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". header ."
+    "left current-page right"
+    ". footer .";
+  background: url(./images/on-the-water.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.header {
+  grid-area: header;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgba(3, 3, 3, 0.6);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.tabs {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  font-size: 1.5rem;
+  list-style: none;
+}
+
+.tabs .tab {
+  cursor: pointer;
+  
+}
+.tabs .tab:hover {
+  font-weight: 900;
+  color: rgb(72, 123, 190);
+}
+
+h2 {
+  text-align: center;
+}
+
+.current-page {
+  grid-area: current-page; 
+  background-color: rgba(3, 3, 3, 0.6);
+}
+
+.current-page p {
+  padding-left: 100px;
+  font-size: 2rem;
+}
+
+.food-images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.food-images img {
+  height: 200px;
+  width: 150px;
+}
+
+.footer { 
+  grid-area: footer;
+  padding-top: 20px; 
+  text-align: center;
+  background-color: rgba(3, 3, 3, 0.6);
+  margin-bottom: 20px;
+  
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(118, 172, 243);
+}
+
+.right { grid-area: right; }
+
+.left { grid-area: left; }
+
+
