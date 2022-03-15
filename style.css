@@ -83,8 +83,12 @@ h2 {
   color: rgb(118, 172, 243);
 }
 
-.right { grid-area: right; }
+.right { 
+  grid-area: right; 
+}
 
-.left { grid-area: left; }
+.left { 
+  grid-area: left; 
+}
 
 
