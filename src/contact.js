@@ -1,10 +1,10 @@
-const MenuPage = (function() {
+const ContactPage = (function() {
   function generate() {
     const main = document.createElement('main');
     main.classList.add('current-page');
 
     const h2 = document.createElement('h2');
-    h2.textContent = 'Menu';
+    h2.textContent = 'Contact';
 
     main.appendChild(h2);
 
@@ -13,4 +13,4 @@ const MenuPage = (function() {
   return {generate};
 })();
 
-export default MenuPage;
+export default ContactPage;

@@ -17,6 +17,7 @@ function createHeader() {
   const homeTab = document.createElement('li');
   homeTab.classList.add('home');
   homeTab.classList.add('tab');
+  homeTab.value = "home";
   homeTab.textContent = 'Home';
   const menuTab = document.createElement('li');
   menuTab.classList.add('menu');
