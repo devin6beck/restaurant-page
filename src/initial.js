@@ -55,16 +55,28 @@ function createFooter() {
 
   return footer;
 }
+/* 
+function createRight() {
+  const aside = document.createElement('aside');
+  aside.classList.add('right');
+  const image = document.createElement('img');
+  image.src = 'images/rafts-chama.jpg';
+  aside.appendChild(image);
 
+  return aside;
+}
+ */
 function initialPage() {
   const content = document.querySelector('.content')
   const header = createHeader();
   const homepage = Home.generate();
   const footer = createFooter();
+  // const right = createRight();
 
   content.appendChild(header);
   content.appendChild(homepage);
   content.appendChild(footer);
+  // content.appendChild(right);
 
 
 }
