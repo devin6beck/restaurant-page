@@ -10,7 +10,7 @@ const Homepage = (function() {
     p1.textContent = 'Enjoy a 3 day river adventure with gourmet food.';
 
     const p2 = document.createElement('p');
-    p2.textContent = 'The guides handle the labor and our gourmet chef prepares bomb food';
+    p2.textContent = 'The guides handle the labor and our gourmet chef prepares bomb food.';
 
     const imagesDiv = document.createElement('div');
     imagesDiv.classList.add('food-images');
