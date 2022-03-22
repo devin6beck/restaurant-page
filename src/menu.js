@@ -14,7 +14,7 @@ const MenuPage = (function() {
   
     const image3 = document.createElement('img');
     image3.src = './images/dessert- anna-tukhfatullina.jpg';
-    image3.alt = 'gourmet steak';
+    image3.alt = 'gourmet dessert cake';
   
     const image4 = document.createElement('img');
     image4.src = 'images/table.jpg';
