@@ -28,6 +28,7 @@ const Homepage = (function() {
 
   function createMain() {
     const main = document.createElement('main');
+    main.classList.add('main')
 
     const h2 = document.createElement('h2');
     h2.textContent = 'Description';
@@ -49,8 +50,10 @@ const Homepage = (function() {
     homePage.classList.add('current-page');
     const main = createMain();
     const imagesDiv = createImagesDiv();
-
+    const spacer = document.createElement('div');
+    spacer.classList.add('spacer');
     homePage.appendChild(imagesDiv);
+    homePage.append(spacer);
     homePage.appendChild(main);
 
     return homePage;
