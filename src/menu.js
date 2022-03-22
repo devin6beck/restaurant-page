@@ -46,17 +46,22 @@ const MenuPage = (function() {
     return main;
   }
 
+function createSpacer() {
+  const spacer = document.createElement('div');
+  spacer.classList.add('spacer');
+
+  return spacer;
+}
+
   function generate() {
     const menuPage = document.createElement('div');
     menuPage.classList.add('current-page');
     const main = createMain();
     const imagesDiv = createImagesDiv();
-    const spacer = document.createElement('div');
-    spacer.classList.add('spacer');
     menuPage.appendChild(imagesDiv);
-    menuPage.append(spacer);
+    menuPage.append(createSpacer());
     menuPage.appendChild(main);
-    menuPage.append(spacer);
+    menuPage.append(createSpacer());
 
     return menuPage;
 

@@ -45,17 +45,22 @@ const Homepage = (function() {
     return main;
   }
 
+function createSpacer() {
+  const spacer = document.createElement('div');
+  spacer.classList.add('spacer');
+
+  return spacer;
+}
+
   function generate() {
     const homePage = document.createElement('div');
     homePage.classList.add('current-page');
     const main = createMain();
     const imagesDiv = createImagesDiv();
-    const spacer = document.createElement('div');
-    spacer.classList.add('spacer');
     homePage.appendChild(imagesDiv);
-    homePage.append(spacer);
+    homePage.append(createSpacer());
     homePage.appendChild(main);
-    homePage.append(spacer);
+    homePage.append(createSpacer());
 
     return homePage;
 
