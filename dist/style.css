@@ -17,7 +17,6 @@ body {
   width: 80vw;
 }
 
-
 .header {
   display: flex;
   margin-top: 20px;
@@ -25,23 +24,17 @@ body {
 
 }
 
-
-
 .h1,
 .logo-container,
 .tabs {
   width: 25vw;
 }
 
-
-
-
 .h1 {
   font-size: 4rem;
   font-family: 'Ruthie', 'Kolker Brush', Sansita Swashed, cursive;
   text-align: center;
   margin-left: 10px;
-
 }
 
 .logo-container {
@@ -60,7 +53,6 @@ body {
   display: flex;
   gap: 25px;
 }
-
 
 .tab {
   font-family: 'Ruthie', 'Kolker Brush', Sansita Swashed, cursive;
@@ -83,7 +75,6 @@ h2 {
 .current-page {
   display: flex;
   flex-direction: column;
-  
 }
 
 .current-page p {
@@ -97,7 +88,6 @@ h2 {
 
 .food-images {
   display: flex;
-  
   justify-content: space-evenly;
 }
 
@@ -109,12 +99,9 @@ h2 {
 }
 
 .footer { 
-  /* grid-area: footer; */
-  
   padding: 10px 0; 
   text-align: center;
   background-color: rgba(3, 3, 3, 0.8);
-  
 }
 
 .footer a {
