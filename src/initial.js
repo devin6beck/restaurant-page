@@ -111,7 +111,6 @@ function initialPage() {
   body.appendChild(header);
   body.appendChild(createSpacer());
   body.appendChild(homepage);
-  body.appendChild(createSpacer());
   body.appendChild(footer);
 
 

@@ -4,11 +4,11 @@ const Homepage = (function() {
     imagesDiv.classList.add('food-images');
   
     const image1 = document.createElement('img');
-    image1.src = 'images/gourmet-food-spread.jpg';
-    image1.alt = 'gourmet food spread';
+    image1.src = 'images/scene.jpg';
+    image1.alt = 'riverbank with mountain in background';
   
     const image2 = document.createElement('img');
-    image2.src = 'images/gourmet-wine-spread-jonathan-borba.jpg';
+    image2.src = 'images/gourmet-food-spread.jpg';
     image2.alt = 'gourmet food spread with wine';
   
     const image3 = document.createElement('img');
@@ -16,8 +16,8 @@ const Homepage = (function() {
     image3.alt = 'gourmet steak';
   
     const image4 = document.createElement('img');
-    image4.src = 'images/dessert- anna-tukhfatullina.jpg';
-    image4.alt = 'gourmet dessert';
+    image4.src = 'images/boats-eddy.jpg';
+    image4.alt = 'rafts next to shore';
   
     imagesDiv.appendChild(image1);
     imagesDiv.appendChild(image2);
@@ -55,6 +55,7 @@ const Homepage = (function() {
     homePage.appendChild(imagesDiv);
     homePage.append(spacer);
     homePage.appendChild(main);
+    homePage.append(spacer);
 
     return homePage;
 
