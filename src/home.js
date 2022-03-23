@@ -34,7 +34,19 @@ const Homepage = (function() {
     h2.textContent = 'Description';
 
     const p1 = document.createElement('p');
-    p1.textContent = 'Enjoy a 3 day river adventure with gourmet food.';
+    p1.textContent = 
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+    Donec venenatis ipsum quis velit faucibus accumsan. Donec \
+    nec ipsum ut purus laoreet dictum. Fusce id lectus urna. \
+    Maecenas in sapien malesuada, commodo dui quis, efficitur\
+    mi. Fusce at porttitor diam, et volutpat arcu. Suspendisse\
+    at massa leo. Pellentesque in rutrum ligula. Sed ut lorem\
+    massa. Sed malesuada, mi nec egestas placerat, lorem metus\
+    pellentesque dolor, eu tempor diam enim consequat lectus.\
+    Morbi vel libero diam. Fusce dapibus mollis magna, quis\
+    ultrices turpis ultrices posuere. Sed purus tortor,\
+    ultricies vitae pharetra ac, sagittis in odio."
+
 
     const p2 = document.createElement('p');
     p2.textContent = 'The guides handle the labor and our gourmet chef prepares bomb food.';
