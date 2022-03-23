@@ -35,10 +35,15 @@ const MenuPage = (function() {
     h2.textContent = 'Menu';
 
     const p1 = document.createElement('p');
-    p1.textContent = 'Enjoy a 3 day river adventure with gourmet food.';
+    p1.textContent = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.\
+                      Curabitur vestibulum hendrerit ligula vitae ultricies.\
+                      Aenean imperdiet ipsum et ornare mollis. Fusce sit amet\
+                      nibh enim. Nullam sed dolor at massa placerat malesuada\
+                      in at dui. Nam ultrices efficitur orci vel rhoncus. Mauris\
+                      vitae aliquet nisi, et facilisis mauris.';
 
     const p2 = document.createElement('p');
-    p2.textContent = 'The guides handle the labor and our gourmet chef prepares bomb food.';
+    p2.textContent = 'Delicious food, amazing wine, and a beautiful view by the river.';
 
     main.appendChild(h2);
     main.appendChild(p1);

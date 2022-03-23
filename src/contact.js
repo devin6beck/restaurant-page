@@ -34,7 +34,8 @@ const ContactPage = (function() {
     h2.textContent = 'Menu';
 
     const p1 = document.createElement('p');
-    p1.textContent = 'Give us a call or schedule your trip online today!';
+    p1.textContent = 'Give us a call or schedule your trip online today!\
+                      010-010-0123';
 
     const p2 = document.createElement('p');
     p2.textContent = 'The guides handle the labor and our gourmet chef prepares bomb food.';
